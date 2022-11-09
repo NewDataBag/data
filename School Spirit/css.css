@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+body{
+	font-family: "'Times New Roman', "微软雅黑";
+	font-size: 14px;
+	color:black;
+	background-color: white;
+}
+
+#main{
+	width: 848px;
+	height: auto;
+	margin: 10px auto;
+}
+
+#main h1{
+	height: 44;
+	border-bottom: 1px #e2e2e2 solid;
+	padding-left: 10px;
+	line-height: 44px;
+	color: #0070a8;
+	font-size: 22px;
+}
+
+#main div{
+	margin-top: 16px;
+	height: 878px;
+	background-image: url(p1.png),url(dm.png),url(tsg.png);
+	background-repeat: no-repeat;
+	background-position: right 49px,left top,left bottom;
+}
+
+#main dl{
+	padding-left: 94px;
+	padding-top: 80px;
+	font-size: 0;
+}
+
+#main dl dt{
+	font-size: 24px;
+	font-weight: bold;
+	color: #984576;
+	background-image: url(diamond.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 30px;
+	margin-top: 20px;
+}
+
+#main dl dd{
+	padding-left: 30px;
+	padding-top: 4px;
+	display: inline-block;
+	font-size: 18px;
+}
