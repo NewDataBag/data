@@ -1,0 +1,83 @@
+/*网页初始化设置*/
+/*定义通配符选择权 匹配页面所有标签元素 快速完成重置浏览器默认样式*/
+
+*{
+	margin: 0;
+	/*外边距置0*/
+	padding: 0;
+	/*内边距置0*/
+	border: none;
+	/*边框不显示*/
+}
+
+body {
+	font-family: "'Times New Roman', "微软雅黑";
+	font-size: 14px;
+	color: #000000;
+	background: url("bg.jpg");
+	width: 878px;
+	height: auto;
+	/*自动分配高度*/
+	border: solid 1px black;
+	/*定义标签元素的边框的线型，颜色，粗细*/
+	padding: 10px;
+	margin: 10px auto;
+}
+
+#mian {
+	width: 878px;
+	height: auto;
+	/*自动分配高度*/
+	border: solid 1px black;
+	/*定义标签元素的边框的线型，颜色，粗细*/
+	padding: 10px;
+	margin: 10px auto;
+	/*定义标签原色的左右外边距为auto，控制该元素以固定的宽带在父标签元素的水平方向居中对其*/
+}
+
+.header1 h1 {
+	background-color: #aaffff;
+	height: 50px;
+	color: #000;
+	font-size: 26px;
+	letter-spacing:  0.5em;
+	text-align: center;
+	line-height:  50px;
+}
+
+.header1 div {
+	text-align: center;
+	color: #bdbdbd;
+	text-decoration: underline;
+	margin-top: ;
+}
+
+#main p {
+	text-align: 20px 0;
+	text-indent: 2em;/*段落首字缩进2个字的宽度*/
+	text-align: justify;/*段落文本两端对齐*/
+}
+
+.text {
+	font-size: 18px;
+	color: red;
+	font-style: italic;/*字体斜体*/
+}
+
+.p1 {
+	text-decoration: overline;/*文字上划线*/
+}
+
+#main figure {
+	width: 720px;
+	margin: 0 auto;
+	text-align: center;/*文本水平居中*/
+}
+
+#main figure img {
+	width: 720px;
+}
+
+#main figure figcaption {
+	margin-top: 10px;/*上外边距10像素*/
+}
