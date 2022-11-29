@@ -1,5 +1,5 @@
 body{
-	font-family: "Times New Roman", "微软雅黑";
+	font-family: "Times New Roman", "楷体";
 }
 #main{
 	height: 306px;
@@ -11,19 +11,23 @@ body{
 	left:0;
 	right:0;
 	margin:auto;
+	margin-top: 10px;
 }
 .div1{
 	height: 26px;
+	border-left: 5px solid red;
+	padding-left: 5px;
 }
 .div1.h1{
 	font-size: 26px;
 	float: left;
+	
 }
 a.a1{
 	float: right;
 	margin-top 10px;
 	margin-bottom: 10px;
-	font-size: 15px;
+	font-size: 17px;
 }
 .div2{
 	margin-top: 10px;
